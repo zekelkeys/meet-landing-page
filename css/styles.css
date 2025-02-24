@@ -16,14 +16,26 @@
     src: url('../fonts/red-hat-display-v20-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-body {
-    font-family: "Red Hat Display", serif;
-}
-
 h1,
 h2 {
     line-height: 110%;
+}
+
+p,
+a,
+button {
+    line-height: 150%;
+}
+
+a,
+h1,
+h2, 
+button {
     font-weight: 900;
+}
+
+body {
+    font-family: "Red Hat Display", serif;
 }
 
 h1 {
@@ -41,8 +53,6 @@ small {
 }
 
 p {
-    font-size: 1rem;
-    line-height: 150%;
     font-weight: 500;
 }
 
