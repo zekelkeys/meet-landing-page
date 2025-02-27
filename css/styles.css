@@ -16,6 +16,15 @@
     src: url('../fonts/red-hat-display-v20-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+:root {
+    --cyan-300:   #8FE3F9;
+    --cyan-600:   #4D96A9;
+    --purple-300: #D9B8FF;
+    --purple-600: #855FB1;
+
+}
+
+
 h1,
 h2 {
     line-height: 110%;
