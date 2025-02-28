@@ -69,6 +69,10 @@ p {
     font-weight: 500;
 }
 
+footer {
+    background-color: var(--cyan-600);
+}
+
 @media only screen and (min-width: 768px) {
     h1 {
         font-size: 3rem;
