@@ -83,24 +83,24 @@ footer p {
 }
 
 .number {
-    width: 80px;
+    width: 3.5rem; /*Might change later when styling the layout */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
     .number__line {
-        width: 1px;
-        height: 80px;
+        width: 0.063rem;
+        height: 5rem;
         background-color:var(--slate-300);
     }
     .number__text {
         display: flex;
         justify-content: center;
         align-items: center;
-        width:  56px;
-        height: 56px;
-        border: 1px solid var(--slate-300);
+        width:  3.5rem;
+        height: 3.5rem;
+        border: 0.063rem solid var(--slate-300);
         border-radius: 50%;
         color: var(--slate-600);
     }
