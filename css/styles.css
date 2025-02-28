@@ -69,14 +69,17 @@ small {
 
 p {
     font-weight: 500;
+    color: var(--slate-600);
 }
 
 footer {
     background-color: var(--cyan-600);
+    color: var(--white);
 }
 
-footer h2 {
-    color: var(--white);
+footer h2,
+footer p {
+    color: inherit;
 }
 
 @media only screen and (min-width: 768px) {
