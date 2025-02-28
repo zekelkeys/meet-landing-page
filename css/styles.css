@@ -82,6 +82,29 @@ footer p {
     color: inherit;
 }
 
+.number {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .number__line {
+        width: 1px;
+        height: 80px;
+        background-color:var(--slate-300);
+    }
+    .number__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:  56px;
+        height: 56px;
+        border: 1px solid var(--slate-300);
+        border-radius: 50%;
+        color: var(--slate-600);
+    }
+
 @media only screen and (min-width: 768px) {
     h1 {
         font-size: 3rem;
