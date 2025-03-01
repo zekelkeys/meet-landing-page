@@ -104,6 +104,12 @@ footer p {
 .btn--purple {
     background-color: var(--purple-600);
 }
+.btn--cyan:hover {
+    background-color: #71C0D4;
+}
+.btn--purple:hover {
+    background-color: #B18BDD;
+}
 .btn--download {
     width: 12.063rem;
 }
