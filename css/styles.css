@@ -85,9 +85,9 @@ footer p {
 .btn {
     border: none;
     outline: none;
-    border-radius: 29px;
+    border-radius: 1.813rem;
     color: var(--white);
-    height: 56px;
+    height: 3.5rem;
     padding: 0;
     cursor: pointer;
 }
