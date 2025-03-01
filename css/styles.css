@@ -82,12 +82,48 @@ footer p {
     color: inherit;
 }
 
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 29px;
+    color: var(--white);
+    height: 56px;
+    padding: 0;
+    cursor: pointer;
+}
+    .btn__version--cyan {
+        color: var(--cyan-300);
+    }
+    .btn__version--purple {
+        color: var(--purple-300);
+    }
+    
+.btn--cyan {
+    background-color: var(--cyan-600);
+}
+.btn--purple {
+    background-color: var(--purple-600);
+}
+.btn--download {
+    width: 193px;
+}
+.btn--link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 161px;
+    text-decoration: none;
+}
+
+    
+
+
+
 .number {
-    width: 3.5rem; /*Might change later when styling the layout */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 3.5rem; /*Might change later when styling the layout */
 }
     .number__line {
         width: 0.063rem;
