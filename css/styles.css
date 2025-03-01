@@ -105,19 +105,15 @@ footer p {
     background-color: var(--purple-600);
 }
 .btn--download {
-    width: 193px;
+    width: 12.063rem;
 }
 .btn--link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 161px;
+    width: 10.063rem;
     text-decoration: none;
 }
-
-    
-
-
 
 .number {
     display: flex;
