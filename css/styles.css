@@ -82,6 +82,13 @@ footer p {
     color: inherit;
 }
 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
 .btn {
     border: none;
     outline: none;
@@ -172,5 +179,9 @@ footer p {
 
     p {
         font-size: 1.125rem;
+    }
+
+    .logo {
+        margin-top: 5rem;
     }
 }
