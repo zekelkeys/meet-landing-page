@@ -29,6 +29,7 @@
 
 h1,
 h2 {
+    margin: 0;
     line-height: 110%;
     color: var(--slate-900);
 }
@@ -55,6 +56,10 @@ button {
 }
 
 body {
+    position: relative;
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-top: 3rem;
     font-family: "Red Hat Display", serif;
 }
 
@@ -92,7 +97,6 @@ footer p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
 }
 
 .people {
@@ -201,9 +205,12 @@ footer p {
 
     .people {
         position: absolute;
-        top: 140px;
         left: calc(50% - 820px/2 + 0px);
         width: 820px;
+    }
+
+    .hero {
+        margin-top: 439px;
     }
 
     .buttons {
@@ -213,6 +220,9 @@ footer p {
 }
 
 @media only screen and (min-width: 1120px) {
+    body {
+        padding-top: 5rem;
+    }
     h1 {
         font-size: 4rem;
     }
@@ -229,18 +239,29 @@ footer p {
         font-size: 1.125rem;
     }
 
-    .logo {
-        margin-top: 5rem;
-    }
-
     .people {
         display: none;
     }
 
     .people-left,
     .people-right {
+        position: absolute;
         display: initial;
     }
+
+    .people-left {
+        top: 0;
+        left: -26px;
+    }
+
+    .people-right {
+        top: 0;
+        right: -26px;
+    }
+
+   .hero {
+    margin-top: 64px;
+   }
 }
 
 
