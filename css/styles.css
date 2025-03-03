@@ -116,6 +116,10 @@ footer p {
     margin-top: 272px;
     margin-inline: auto;
 }
+    .hero__paragraph {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
 
 .people-left,
 .people-right {
@@ -219,7 +223,7 @@ footer p {
     }
 }
 
-@media only screen and (min-width: 1120px) {
+@media only screen and (min-width: 1250px) {
     body {
         padding-top: 5rem;
     }
@@ -250,18 +254,22 @@ footer p {
     }
 
     .people-left {
-        top: 0;
+        top: 172px;
         left: -26px;
     }
 
     .people-right {
-        top: 0;
+        top: 229px;
         right: -26px;
     }
 
-   .hero {
-    margin-top: 64px;
-   }
+    .hero {
+        margin-top: 87px;
+    }
+    .hero__paragraph {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
 }
 
 
