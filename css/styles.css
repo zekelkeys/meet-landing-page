@@ -114,7 +114,10 @@ footer p {
 .hero {
     max-width: 448.3px;
     margin-top: 272px;
+    margin-bottom: 32px;
     margin-inline: auto;
+
+    background-color: red;
 }
     .hero__paragraph {
         margin-top: 24px;
@@ -215,6 +218,7 @@ footer p {
 
     .hero {
         margin-top: 439px;
+        margin-bottom: 64px;
     }
 
     .buttons {
@@ -265,6 +269,7 @@ footer p {
 
     .hero {
         margin-top: 87px;
+        margin-bottom: 87px;
     }
     .hero__paragraph {
         margin-top: 32px;
