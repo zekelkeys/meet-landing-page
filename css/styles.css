@@ -180,6 +180,10 @@ footer p {
     flex-direction: column;
     align-items: center;
     width: 3.5rem; /*Might change later when styling the layout */
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
 }
     .number__line {
         width: 0.063rem;
@@ -224,6 +228,10 @@ footer p {
     .buttons {
         flex-direction: row;
         justify-content: center;
+    }
+
+    .number {
+        margin-top: 3.5rem;
     }
 }
 
