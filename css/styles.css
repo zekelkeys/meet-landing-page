@@ -76,6 +76,8 @@ small {
     letter-spacing: 0.25rem;
     text-transform: uppercase;
     color: var(--cyan-600);
+    display: block;
+    line-height: 110%;
 }
 
 p {
