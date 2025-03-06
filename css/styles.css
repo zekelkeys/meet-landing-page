@@ -203,7 +203,9 @@ footer p {
     grid-template-columns: auto auto;
     gap: 1rem;
     max-width: 70rem;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
 }
     .chat-photo {
         width: 100%;
