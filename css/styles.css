@@ -231,7 +231,7 @@ footer p {
     }
     .secondary__paragraph {
         margin-top: 32px;
-        margin-bottom: 0;
+        margin-bottom: 64px;
     }
 
 @media only screen and (min-width: 768px) {
@@ -329,5 +329,9 @@ footer p {
 
     .secondary {
         max-width: 544px;
+    }
+
+    .secondary__paragraph {
+        margin-bottom: 72px;
     }
 }
