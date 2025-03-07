@@ -57,7 +57,7 @@ button {
 
 body {
     position: relative;
-    max-width: 1440px;
+    max-width: 90rem;
     margin-inline: auto;
     padding-top: 3rem;
     font-family: "Red Hat Display", serif;
@@ -78,7 +78,7 @@ small {
     color: var(--cyan-600);
     display: block;
     line-height: 110%;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -222,16 +222,16 @@ footer p {
 }
 
 .secondary {
-    max-width: 504px;
+    max-width: 31.5rem;
 }
     .secondary__header {
-        max-width: 445px;
-        margin-top: 32px;
+        max-width: 27.813rem;
+        margin-top: 2rem;
         margin-bottom: 0;
     }
     .secondary__paragraph {
-        margin-top: 32px;
-        margin-bottom: 64px;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
     }
 
 @media only screen and (min-width: 768px) {
@@ -328,10 +328,10 @@ footer p {
     }
 
     .secondary {
-        max-width: 544px;
+        max-width: 34rem;
     }
 
     .secondary__paragraph {
-        margin-bottom: 72px;
+        margin-bottom: 4.5rem;
     }
 }
