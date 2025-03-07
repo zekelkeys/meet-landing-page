@@ -78,6 +78,7 @@ small {
     color: var(--cyan-600);
     display: block;
     line-height: 110%;
+    margin-bottom: 16px;
 }
 
 p {
@@ -212,6 +213,25 @@ footer p {
         border-radius: 0.5rem;
     }
 
+.secondary,
+.secondary__header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondary {
+    max-width: 504px;
+}
+    .secondary__header {
+        max-width: 445px;
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+    .secondary__paragraph {
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+
 @media only screen and (min-width: 768px) {
     h1 {
         font-size: 3rem;
@@ -303,5 +323,9 @@ footer p {
 
     .chat-photos {
         gap: 2rem;
+    }
+
+    .secondary {
+        max-width: 544px;
     }
 }
