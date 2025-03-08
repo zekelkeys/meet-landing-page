@@ -86,16 +86,6 @@ p {
     color: var(--slate-600);
 }
 
-footer {
-    background-color: var(--cyan-600);
-    color: var(--white);
-}
-
-footer h2,
-footer p {
-    color: inherit;
-}
-
 .logo {
     display: block;
     margin-left: auto;
@@ -199,7 +189,18 @@ footer p {
         border: 0.063rem solid var(--slate-300);
         border-radius: 50%;
         color: var(--slate-600);
+        background-color: var(--white);
     }
+.number--two {
+    position: absolute;
+    z-index: 1;
+    top: -6.75rem;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+   
+}
 
 .chat-photos {
     display: grid;
@@ -233,6 +234,22 @@ footer p {
         margin-top: 2rem;
         margin-bottom: 4rem;
     }
+
+.footer {
+    background-color: var(--cyan-600);
+    color: var(--white);
+}
+
+footer {
+    position: relative;
+    margin-top: 10.75rem;
+}
+
+footer h2,
+footer p {
+    color: inherit;
+}
+    
 
 @media only screen and (min-width: 768px) {
     h1 {
