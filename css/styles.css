@@ -27,6 +27,11 @@
     --purple-600: #855FB1;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 h1,
 h2 {
     margin: 0;
@@ -54,6 +59,8 @@ span,
 button {
     font-weight: 900;
 }
+
+
 
 body {
     position: relative;
